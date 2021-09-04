@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body style="font-family: Lato, Helvetica, Arial, sans-serif; margin-top: 20px; line-height: 130%;">
+    Dear <%= @old_track.artist.artist_name %>,
+    <br>
+    <br>
+    <%= @track.artist.artist_name %> remixed your track "<%= @old_track.name %>".
+    <br>
+    <a href="<%= "#{UserMailer.app_host}/tracks/#{@track.id}" %>">Click here to check it out!</a> 
+    <br>
+    <br>
+    Sincerely, 
+    <br>
+    Beat of the Day
+  </body>
+</html>
