@@ -1,3 +1,5 @@
+Moved to https://gitlab.com/HeyRobotShop/beatoftheday
+
 # 🥁 &nbsp; [Beatoftheday.org](https://www.beatoftheday.org/) &nbsp; 🌞
 
 Open source music collaboration platform.
